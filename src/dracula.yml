@@ -49,7 +49,7 @@ dracula:
     # UI Variants
     - &BGLighter '#424450'
     - &BGLight '#343746' # HSV (230   , 25.71, 27.45)
-    - &BGDark '#21222C' # HSV (234.55, 25   , 17.25)
+    - &BGDark '#0F0F0F' # HSV (234.55, 25   , 17.25)
     - &BGDarker '#191A21' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
@@ -143,7 +143,7 @@ colors:
   list.focusForeground: # List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not
 
   # Activity Bar
-  activityBar.background: *BGLight # Activity Bar background color
+  activityBar.background: *BGDark # Activity Bar background color (was *BGLight)
   activityBar.inactiveForeground: *COMMENT # Activity bar item foreground color when it is inactive
   activityBar.dropBackground: # Drag and drop feedback color for the Activity Bar items
   activityBar.foreground: *FG # Activity bar foreground color (for example used for the icons)
