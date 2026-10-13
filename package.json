@@ -1,10 +1,9 @@
 {
-    "name": "theme-dracula",
-    "version": "2.25.1",
-    "displayName": "Dracula Theme Official",
-    "homepage": "https://draculatheme.com/",
-    "description": "The official Dracula Theme: a dark theme for many editors, shells, and more. 🦇",
-    "publisher": "dracula-theme",
+    "name": "my-dracula",
+    "version": "1.0.0",
+    "displayName": "Dracula Theme, Customized",
+    "description": "🦇",
+    "publisher": "bdimaggio",
     "license": "MIT",
     "scripts": {
         "build": "node ./scripts/build.js",
@@ -53,14 +52,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dracula Theme",
+                "label": "Customized Dracula Theme",
                 "uiTheme": "vs-dark",
                 "path": "./theme/dracula.json"
-            },
-            {
-                "label": "Dracula Theme Soft",
-                "uiTheme": "vs-dark",
-                "path": "./theme/dracula-soft.json"
             }
         ]
     },
@@ -69,10 +63,5 @@
         "prettier": "^3.0.0",
         "tinycolor2": "^1.6.0",
         "vsce": "^2.15.0"
-    },
-    "__metadata": {
-        "id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-        "publisherDisplayName": "Dracula Theme",
-        "publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
     }
 }
