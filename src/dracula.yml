@@ -12,7 +12,7 @@ dracula:
     - &SELECTION '#44475A'
     - &COMMENT '#A1A1A1'
     - &CYAN '#8BE9FD'
-    - &GREEN '#50FA7B'
+    - &GREEN '#00CA50'
     - &ORANGE '#FFB86C'
     - &PINK '#FF4D8D'
     - &PURPLE '#C472FB'
