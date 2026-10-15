@@ -27,10 +27,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/dracula/visual-studio-code.git"
+        "url": "https://github.com/bdimaggio/my-dracula.git"
     },
     "bugs": {
-        "url": "https://github.com/dracula/visual-studio-code/issues"
+        "url": "https://github.com/bdimaggio/my-dracula/issues"
     },
     "engines": {
         "vscode": "^1.13.0"
